@@ -1,0 +1,24 @@
+{
+  "name": "offlinify-angular",
+  "description": "Example integration of Offlinify with AngularJS, as a service",
+  "main": "index.js",
+  "authors": [
+    "Adam Smith"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "offlinify",
+    "angularjs"
+  ],
+  "homepage": "https://github.com/adamjcsmith/offlinify-angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "semantic-ui#^2.1.8"
+  }
+}
