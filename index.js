@@ -6,6 +6,8 @@ var jade = require('pug');
 app.set('views', './views');
 app.set('view engine', 'pug');
 
+app.use('/static', express.static('bower_components'));
+
 app.get('/', function(req, res) {
   res.render('index');
 });
