@@ -1,0 +1,13 @@
+{
+  "name": "offlinify",
+  "homepage": "https://github.com/adamjcsmith/offlinify",
+  "_release": "ea72720190",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ea727201908bfa28f3bd0d4004c5870ea0de802d"
+  },
+  "_source": "git://github.com/adamjcsmith/offlinify.git",
+  "_target": "*",
+  "_originalSource": "adamjcsmith/offlinify"
+}

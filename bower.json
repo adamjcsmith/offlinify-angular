@@ -20,6 +20,8 @@
   ],
   "dependencies": {
     "semantic": "semantic-ui#^2.1.8",
-    "angular": "angularjs#^1.5.5"
+    "angular": "angularjs#^1.5.5",
+    "offlinify": "adamjcsmith/offlinify",
+    "lodash": "^4.11.1"
   }
 }

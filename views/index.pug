@@ -1,8 +1,8 @@
 html
   head
     title Offlinify Example
-    link(href='/static/semantic/dist/semantic.min.css', rel='stylesheet')
-  body(ng-app="offlineApp")
+    link(href='/static/bower_components/semantic/dist/semantic.min.css', rel='stylesheet')
+  body(ng-app="offline-app", ng-controller="offlineCtrl")
     .ui.menu
       a.active.item
        strong Offlinify-Angular
@@ -20,4 +20,9 @@ html
         .ui.attached.segment
           #dataModel(ng-repeat='item in dataModel')
             p This is a test
-    script(src='/static/angular/angular.min.js')
+    script(src='/static/bower_components/offlinify/dist/offlinify.js')
+    script(src='/static/bower_components/lodash/dist/lodash.min.js')
+    script(src='/static/bower_components/angular/angular.min.js')
+    script(src='/static/angular/offline-app.js')
+    script(src='/static/angular/offlineCtrl.js')
+    script(src='/static/angular/offlineService.js')
