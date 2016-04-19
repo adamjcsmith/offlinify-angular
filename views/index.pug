@@ -1,0 +1,28 @@
+html
+  head
+    title Offlinify Example
+    link(href='/static/bower_components/semantic/dist/semantic.min.css', rel='stylesheet')
+  body(ng-app="offline-app", ng-controller="offlineCtrl")
+    .ui.menu
+      a.active.item
+       strong Offlinify-Angular
+      a.item
+        i.refresh.icon
+        p Manual Sync
+      .right.menu
+        .item
+          .ui.icon.input
+            input(type='text', placeholder='Add New Item')
+            i.search.link.icon
+    .ui.three.column.padded.grid
+      .column
+        h5.ui.top.attached.header Object Store 1
+        .ui.attached.segment
+          #dataModel(ng-repeat='item in dataModel')
+            p This is a test
+    script(src='/static/bower_components/offlinify/dist/offlinify.js')
+    script(src='/static/bower_components/lodash/dist/lodash.min.js')
+    script(src='/static/bower_components/angular/angular.min.js')
+    script(src='/static/angular/offline-app.js')
+    script(src='/static/angular/offlineCtrl.js')
+    script(src='/static/angular/offlineService.js')

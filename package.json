@@ -1,0 +1,28 @@
+{
+  "name": "offlinify-angular",
+  "version": "1.0.0",
+  "description": "Example integration of Offlinify with AngularJS, as a service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjcsmith/offlinify-angular.git"
+  },
+  "keywords": [
+    "offlinify",
+    "angularjs"
+  ],
+  "author": "Adam Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamjcsmith/offlinify-angular/issues"
+  },
+  "homepage": "https://github.com/adamjcsmith/offlinify-angular#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.13.4",
+    "pug": "^0.1.0"
+  }
+}
