@@ -19,7 +19,7 @@ html
         h5.ui.top.attached.header Object Store 1
         .ui.attached.segment
           #dataModel(ng-repeat='item in dataModel')
-            p This is a test
+            p {{item.fields.name}}
     script(src='/static/bower_components/offlinify/dist/offlinify.js')
     script(src='/static/bower_components/lodash/dist/lodash.min.js')
     script(src='/static/bower_components/angular/angular.min.js')

@@ -2,10 +2,13 @@
 
 angular.module('offline-app').service('offlineService', ['$http', function(http) {
 
-  var testFunction = function() {
-    console.log("Callback function called.");
-  }
+  //var testFunction = function() {
+    //console.log("Callback function called.");
+  //}
 
-  Offlinify.subscribe(testFunction);
+
+  //console.log("Got to here");
+
+  //Offlinify.subscribe(testFunction);
 
 }]);
